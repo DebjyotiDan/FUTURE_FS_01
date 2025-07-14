@@ -75,6 +75,43 @@ body {
         transform: rotate(360deg);
     }
 }
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        padding: 2rem 5%;
+        text-align: center;
+    }
+    .hero-right {
+        padding-left: 0;
+        margin-top: 2rem;
+    }
+    .dp-ring {
+        width: 250px;
+        height: 250px;
+    }
+    .dp-img {
+        width: 200px;
+        height: 200px;
+    }
+    .hero-right h1 {
+        font-size: 2rem;
+    }
+    .hero-right p {
+        font-size: 1rem;
+    }
+}
 
 .hero-right {
     flex: 1;
