@@ -93,25 +93,31 @@ body {
         padding: 2rem 5%;
         text-align: center;
     }
+
     .hero-right {
         padding-left: 0;
         margin-top: 2rem;
     }
+
     .dp-ring {
-        width: 2300px;
-        height: 230px;
+        width: 250px;
+        height: 250px;
     }
+
     .dp-img {
-        width: 180px;
-        height: 180px;
+        width: 200px;
+        height: 200px;
     }
+
     .hero-right h1 {
         font-size: 2rem;
     }
+
     .hero-right p {
         font-size: 1rem;
     }
 }
+
 
 .hero-right {
     flex: 1;
@@ -121,12 +127,15 @@ body {
 .hero-right h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
+    font-weight: 600; 
 }
 
 .hero-right p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
+    font-weight: 400; 
 }
+
 
 .btn {
     background: #00aaff;
@@ -135,7 +144,9 @@ body {
     border-radius: 8px;
     text-decoration: none;
     transition: 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 170, 255, 0.3); 
 }
+
 
 .btn:hover {
     background: #44b2e1;
